@@ -24,7 +24,7 @@ To quickly install **KCL_PSO**, we encourage to do it inside a virtual environme
 3. Get KCL_PSO from the GitHub repository:
 
 ```bash 
-  git clone 
+  git clone https://github.com/alejandrosantanabonilla/PSO.git
 ```
 
 4. Install KCL_PSO in this folder using the virtual environment
