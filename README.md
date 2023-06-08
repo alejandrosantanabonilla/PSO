@@ -40,7 +40,7 @@ To do so, please type the following commands in your session:
 4. Install KCL_PSO in this folder using the virtual environment
 
 ```bash 
-   [~] cd pso
+   [~] cd PSO
    [~] pip install .
 ```
 
