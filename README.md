@@ -14,7 +14,17 @@ To quickly install **KCL_PSO**, we encourage to do it inside a virtual environme
   [~] cd work_pso
 ```
 
-2. Create a virtual environment named pol (this name can be changed, of course) and activate the environment:
+2. **IN CASE YOU ARE INSTALLING THE PACKAGE IN YOUNG** You need first to load these modules **BEFORE INSTALLING THE LIBRARRY**.
+To do so, please type the following commands in your session:
+
+ ```bash
+  module purge
+  module load gcc-libs/4.9.2
+  module load openblas/0.3.7-serial/gnu-4.9.2
+  module load python3/3.8
+ ```
+
+3. Create a virtual environment named pol (this name can be changed, of course) and activate the environment:
 
 ```bash 
    [~] python -m venv kcl_pso
