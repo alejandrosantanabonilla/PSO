@@ -1,0 +1,11 @@
+startstep=1
+maxstep=16
+popsize=15
+command=vasp_gam
+cores=20
+z_min=2.5
+best_idv=5
+omegamax=0.9
+omegamin=0.4
+c1=2.0
+c2=2.5

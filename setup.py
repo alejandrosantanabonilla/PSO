@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pysoftk',
+    name='pso',
     version='0.1.0',
     author='A. Santana-Bonilla',
     author_email='k2031560@kcl.ac.uk',
@@ -11,5 +11,6 @@ setup(
     #long_description=open('README.txt').read(),
     install_requires=[
         'ase',
+        'numpy',
     ],
 )
