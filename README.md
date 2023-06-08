@@ -44,5 +44,28 @@ To do so, please type the following commands in your session:
    [~] pip install .
 ```
 
+# First calculation
+
+To test the code, there is a folder inside the **PSO** directory called
+**test**. Inside there is a folder called **input_files**, where all the 
+corresponding VASP files **EXCEPT POTCAR** are located. Please add **POTCAR**
+in that directory before starting any calculation.
+
+You can submit a first test, just by typing:
+
+``` bash
+    
+    qsub job.sh
+```
+
+This should work. To check your job, you can type
+
+``` bash
+
+    qstat -u mmmXXXX
+```
+and look for pso_calculation job.
+
+
 
 
