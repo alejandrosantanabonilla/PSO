@@ -16,7 +16,7 @@ module load openblas/0.3.7-serial/gnu-4.9.2
 module load python3/3.8
 
 
-source $HOME//bin/activate
+source $HOME/work_pso/kcl_pso/bin/activate
 export OMP_NUM_THREADS=1
 
 start=`date +%s`
