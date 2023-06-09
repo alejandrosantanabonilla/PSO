@@ -54,14 +54,12 @@ in that directory before starting any calculation.
 You can submit a first test, just by typing:
 
 ``` bash
-    
     qsub job.sh
 ```
 
 This should work. To check your job, you can type
 
 ``` bash
-
     qstat -u mmmXXXX
 ```
 and look for pso_calculation job.
